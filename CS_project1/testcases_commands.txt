@@ -1,0 +1,23 @@
+# Task 1, 1p
+1,0,0.5,test_p1_n_1,./allocate -p 1 -f task1/input/test_p1_n_1.txt
+1,0,0.5,test_p1_n_2,./allocate -p 1 -f task1/input/test_p1_n_2.txt
+
+# Task 2, 2p, no para
+2,0,0.5,test_p2_n_1,./allocate -p 2 -f task2/input/test_p2_n_1.txt
+2,0,0.5,test_p2_n_2,./allocate -p 2 -f task2/input/test_p2_n_2.txt
+
+# Task 3, 2p para
+3,0,0.5,test_p2_p_1,./allocate -p 2 -f task3/input/test_p2_p_1.txt
+3,0,0.5,test_p2_p_2,./allocate -p 2 -f task3/input/test_p2_p_2.txt
+
+# Task 4, Np, no para
+4,0,0.5,test_p4_n_1,./allocate -p 4 -f task4/input/test_p4_n_1.txt
+4,0,0.5,test_p4_n_2,./allocate -p 4 -f task4/input/test_p4_n_2.txt
+
+# Task 5, Np, para
+5,0,0.5,test_p4_p_1,./allocate -p 4 -f task5/input/test_p4_p_1.txt
+5,0,0.5,test_p4_p_2,./allocate -p 4 -f task5/input/test_p4_p_2.txt
+
+# Task 6, perf stats
+6,1,0.25,test_p1_n_1,./allocate -p 1 -f task6/input/test_p1_n_1.txt
+6,1,0.25,test_p4_p_2,./allocate -p 4 -f task6/input/test_p4_p_2.txt
